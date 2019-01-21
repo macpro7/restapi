@@ -3,8 +3,8 @@
 ### HTTP Requests
 POST /api/sms/v1/sendsms
 ### Limit: 
-For one number : 1 time / 60s 
-For global system : 80000 times MAX / 1s
+- For one number : 1 time / 60s 
+- For global system : 80000 times MAX / 1s
 
 ### Request Sample
 POST /api/sms/v1/sendsms
