@@ -39,12 +39,14 @@ error_code   |    String         | Show the error information if any error occur
 
 # EORROR CODE:
 ## Common Error Codes
-400    Bad Request — Invalid request format
-401    Unauthorized — Invalid passcode 
-403    Forbidden — You do not have access to the requested resource
-404    Not Found
-500    Internal Server Error — We had a problem with our server
-429   Too Many Requests.
+- 400    Bad Request — Invalid request format
+- 401    Unauthorized — Invalid passcode 
+- 403    Forbidden — You do not have access to the requested resource
+- 404    Not Found
+- 500    Internal Server Error — We had a problem with our server
+
+** Additional errors:**
+- 429   Too Many Requests.
 
 ## Success
 A successful response is indicated by HTTP status code 200 and may contain an optional body.
