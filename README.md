@@ -34,6 +34,7 @@ status       |    String         | The status of that sms. [ queuing / sent / de
 error_code   |    String         | Show the error information if any error occurs.
 
 
+-------------------------
 
 
 
