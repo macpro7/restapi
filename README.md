@@ -26,7 +26,7 @@ templet_id   |  String           |    Yes   | Each sms must follow a certain sms
 contents     |  String           |    Yes   | Parameters and contents for the sms.
 
 ### Response Sample
-> '{ "sms_uid":"550e8400-e29b-41d4-a716-446655440000", "status":"sent", } '
+> '{ "sms_uid":"550e8400-e29b-41d4-a716-446655440000", "status":"sent", "error_code":"0"} '
 
 Parameters   |  Parameters Types |  Description
 -------------|-------------------|----------------
