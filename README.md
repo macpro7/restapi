@@ -46,7 +46,7 @@ error_code   |    String         | Show the error information if any error occur
 - 404    Not Found
 - 500    Internal Server Error — We had a problem with our server
 
-** Additional errors:**
+ Additional errors:
 - 429   Too Many Requests.
 
 ## Success
