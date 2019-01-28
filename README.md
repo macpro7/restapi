@@ -47,11 +47,7 @@ POST /api/sms/v1/querysms
 ### Request Sample
 POST /api/sms/v1/querysms
 
-If you want to query a sms  : 
-
-`Dear Mr. Tom , your auth code is 888888. The code will expire in 60 seconds. Have a good time! [Cookpad]`
-
-Then , the parameter should like this:
+If you want to query a sms ,Then the parameter should like this:
 
 > ' {"client_id":"cookpad_Server_001","passcode":"ARDOR-7JF3-8F2E-QUWZ-CAN7F","sms_uid":"550e8400-e29b-41d4-a716-446655440000" }'
 
@@ -62,7 +58,7 @@ passcode     |  String           |    Yes   | A generated Key for the server to 
 sms_uid      |  String           |    Yes   | The unique ID for the sms which you want to check.
 
 ### Response Sample
-> '{ "sms_uid":"550e8400-e29b-41d4-a716-446655440000", "status":"sent", "error_code":"0"} '
+> '{ "sms_uid":"550e8400-e29b-41d4-a716-446655440000", "status":"delivered", "error_code":"0"} '
 
 
 Parameters   |  Parameters Types |  Description
