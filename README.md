@@ -11,11 +11,16 @@ POST /api/sms/v1/sendsms
 
 If you want to send an auth-sms to Mr. Tom like this : 
 
-`Dear Mr. Tom , your auth code is 888888. The code will expire in 60 seconds. Have a good time! [Cookpad]`
+`Dear Member , your auth code is 8888. The code will expire in 60 seconds. Have a good time! [Cookpad]`
+
+And your sms template is :
+`Dear Member , your auth code is ${code}. The code will expire in 60 seconds. Have a good time! [Cookpad]`
 
 Then , the parameter should like this:
 
-> ' {"client_id":"cookpad_Server_001","passcode":"ARDOR-7JF3-8F2E-QUWZ-CAN7F","phone_number":"13800138000","templet_id":"t1","contents":[{"p1":"Mr. Tom"},{"p2":"888888"},{"p3":"Have a good time!"}] }'
+> ' {"client_id":"cookpad_Server_001","passcode":"ARDOR-7JF3-8F2E-QUWZ-CAN7F","phone_number":"13800138000","templet_id":"t1","contents":[{"p1":"8888"}] }'
+
+
 
 Parameters   |  Parameters Types | Required |   Description
 -------------|-------------------|----------|--------------------
