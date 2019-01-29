@@ -14,6 +14,7 @@ If you want to send an auth-sms to Mr. Tom like this :
 `Dear Member , your auth code is 8888. The code will expire in 60 seconds. Have a good time! [Cookpad]`
 
 And your sms template is :
+
 `Dear Member , your auth code is ${code}. The code will expire in 60 seconds. Have a good time! [Cookpad]`
 
 Then , the parameter should like this:
